@@ -35,7 +35,6 @@ public class B1021 {
 
       int left = idx;
       int right = stack.size() - idx;
-
       if(left <= right) {
         for(int j=0; j<left; j++) {
           stack.addLast(stack.pollFirst());
